@@ -6,7 +6,7 @@ public class Task6 : MonoBehaviour
     {
         int year = 1985;
         int century = YearToCentury(year);
-        Debug.Log($"Год: {year}, век: {century}");
+        Debug.Log($"Year: {year}, Century: {century}");
     }
 
     private int YearToCentury(int year)

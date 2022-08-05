@@ -31,28 +31,28 @@ public class Task3 : MonoBehaviour
         switch (dayWeek)
         {
             case DayWeek.Monday:
-                dayWeekText = "Понедельник";
+                dayWeekText = "Monday";
                 break;
             case DayWeek.Tuesday:
-                dayWeekText = "Вторник";
+                dayWeekText = "Tuesday";
                 break;
             case DayWeek.Wednesday:
-                dayWeekText = "Среда";
+                dayWeekText = "Wednesday";
                 break;
             case DayWeek.Thursday:
-                dayWeekText = "Четверг";
+                dayWeekText = "Thursday";
                 break;
             case DayWeek.Friday:
-                dayWeekText = "Пятница";
+                dayWeekText = "Friday";
                 break;
             case DayWeek.Saturday:
-                dayWeekText = "Суббота";
+                dayWeekText = "Saturday";
                 break;
             case DayWeek.Sunday:
-                dayWeekText = "Воскресенье";
+                dayWeekText = "Sunday";
                 break;
             case DayWeek.None:
-                dayWeekText = "Не определен";
+                dayWeekText = "None";
                 break;
         }
 

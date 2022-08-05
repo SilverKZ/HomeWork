@@ -14,11 +14,11 @@ public class Task5 : MonoBehaviour
         string msgResult;
 
         if (firstNumber > secondNumber)
-            msgResult = $"Первое число ({firstNumber}) больше, второе число ({secondNumber}) меньше.";
+            msgResult = $"{firstNumber} > {secondNumber}";
         else if (firstNumber < secondNumber)
-            msgResult = $"Второе число ({secondNumber}) больше, первое число ({firstNumber}) меньше.";
+            msgResult = $"{secondNumber}) > {firstNumber}";
         else
-            msgResult = $"Первое число ({firstNumber}) и второе число ({secondNumber}) равны.";
+            msgResult = $"{firstNumber} = {secondNumber}";
 
         Debug.Log(msgResult);
     }

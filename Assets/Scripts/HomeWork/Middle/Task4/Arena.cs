@@ -21,7 +21,7 @@ class Arena : MonoBehaviour
         {
             _firstWarrior.ShowInfo();
             _secondWarrior.ShowInfo();
-            Debug.Log("Воины атакуют друг друга");
+            Debug.Log("Warriors attack each other");
             _firstWarrior.Attack(_secondWarrior);
             _secondWarrior.Attack(_firstWarrior);
         }
@@ -32,7 +32,7 @@ class Arena : MonoBehaviour
             ShowWinResult(_secondWarrior, _firstWarrior);
         else
         {
-            Debug.Log("Ничья:");
+            Debug.Log("Dead heat:");
             _firstWarrior.ShowInfo();
             _secondWarrior.ShowInfo();
         }
@@ -40,9 +40,9 @@ class Arena : MonoBehaviour
 
     private void ShowWinResult(Warrior firstWarrior, Warrior secondWarrior)
     {
-        Debug.Log("Победил:");
+        Debug.Log("Won:");
         firstWarrior.ShowInfo();
-        Debug.Log("Проиграл:");
+        Debug.Log("Lost:");
         secondWarrior.ShowInfo();
     }
 }

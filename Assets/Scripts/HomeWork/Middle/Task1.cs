@@ -9,8 +9,8 @@ namespace Middle
         {
             string numbers = "2 45 51 14 78 23 14";
             int maxNumber = GetMaxNumber(numbers);
-            Debug.Log($"Строка чисел: {numbers}");
-            Debug.Log($"Максимальное число: {maxNumber}");
+            Debug.Log($"String of numbers: {numbers}");
+            Debug.Log($"Maximum number: {maxNumber}");
         }
 
         private static int GetMaxNumber(string stringNumbers)

@@ -20,7 +20,7 @@ class Warrior : MonoBehaviour
 
     public void ShowInfo()
     {
-        Debug.Log($"Воин: {_name}, здоровье: {_health}");
+        Debug.Log($"Warrior: {_name}, Health: {_health}");
     }
 
     public void Attack(Warrior enemy)
